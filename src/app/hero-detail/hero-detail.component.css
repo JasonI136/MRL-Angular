@@ -22,3 +22,10 @@ label {
     color: #ccc;
     cursor: auto;
   }
+  
+  .navCenter{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
