@@ -1,7 +1,13 @@
 /* AppComponent's private CSS styles */
+body, html {
+  height: 100%;
+}
+
 h1 {
   margin-bottom: 0;
+  text-align: center;
 }
+
 nav a {
   padding: 1rem;
   text-decoration: none;
@@ -12,6 +18,12 @@ nav a {
   border-radius: 4px;
 }
 
+.navCenter{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 nav a:hover {
   color: white;
   background-color: #42545C;
@@ -19,3 +31,31 @@ nav a:hover {
 nav a.active {
   background-color: black;
 }
+
+.projBackground{
+    width:100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.backDrop{
+  max-width: 960px;
+  background: #fff;
+  border-radius: 2px;
+  padding: 66px 115px 59px 115px;
+  position: relative;
+}
+
