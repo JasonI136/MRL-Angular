@@ -134,3 +134,9 @@ button.delete:hover {
   display: flex;
   justify-content: center;
 }
+
+.liHero a,.liHero a span{
+  height:43px;
+
+}
+

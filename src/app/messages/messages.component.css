@@ -63,12 +63,14 @@ h2 {
     left: 0;
     width: 0;
     height: 100%;
-    background: darkred;
+    background: yellow;
     transition: all .35s;
+    
   }
   
   a:hover{
     color: white;
+    
   }
   
   a:hover:after{

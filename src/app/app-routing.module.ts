@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { HeroesComponent } from './heroes/heroes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 const routes: Routes = [
+  {path: 'calculator', component: CalculatorComponent},
   { path: 'heroes', component: HeroesComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
